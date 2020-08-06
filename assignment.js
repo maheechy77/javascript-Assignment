@@ -1,4 +1,4 @@
-function tinyFriend(friends) {
+function tinyFriends(friends) {
 	if (!friends) {
 		return "Please give name of friends in an array";
 	}
@@ -11,8 +11,8 @@ function tinyFriend(friends) {
 	return [minValue];
 }
 
-// const tinyfriend = tinyFriend(["a", "b", "cc", "dd", "efe"]);
-// console.log(tinyfriend);
+const tinyfriends = tinyFriends(["a", "b", "cc", "dd", "efe"]);
+console.log(tinyfriend);
 
 function feetToMile(feet) {
 	if (feet <= 0) {
@@ -21,8 +21,8 @@ function feetToMile(feet) {
 	return feet / 5280;
 }
 
-// const feettomile = feetToMile("5280");
-// console.log(feettomile);
+const feettomile = feetToMile("5280");
+console.log(feettomile);
 
 function woodCalculator(woodForChair, woodForTable, woodForBed) {
 	if (!woodForTable || !woodForChair || !woodForBed) {
@@ -31,7 +31,7 @@ function woodCalculator(woodForChair, woodForTable, woodForBed) {
 	return woodForChair * 1 + woodForTable * 3 + woodForBed * 5;
 }
 
-// console.log(woodCalculator(2, 3, 5));
+console.log(woodCalculator(2, 3, 5));
 
 function brickCalculator(floors) {
 	if (floors <= 0) {
@@ -49,4 +49,4 @@ function brickCalculator(floors) {
 	}
 }
 
-// console.log(brickCalculator(5));
+console.log(brickCalculator(5));
